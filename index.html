@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portafolio</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap-custom.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+<header>
+		<div class="container">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="#">
+				  <img src="img/amyba-logo.png" alt="Logo" class="img-fluid">
+				</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa-solid fa-bars"></i>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mx-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#about-me">Acerca de mí</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#services">Servicios</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#projects">Proyectos</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#contact">Contáctame</a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+
+<section id="hero">
+	<div class="container">
+		
+	</div>
+</section>
+
+<section id="about-me">
+	<div class="container-fluid p-0">
+		<div class="row g-0">
+			<article class="col-lg-6 col-sm-6 col-12">
+				<h2>Acerca de mí</h2>
+				<p>Soy <b>Amy Melara</b></p>
+				<p>Estudiante de Animación Digital y Diseño Interactivo en UNITEC. </p>
+			</article>
+			
+			<article class="col-lg-6 col-sm-6 col-12">
+				<img src="img/about-me.jpg" alt="Amy-Melara" class="img-fluid">
+			</article>
+			
+		</div>
+	</div>
+</section>
+	
+<section id="services">
+	<div class="container-fluid">
+		<div class="row">
+			<article class="col-lg-6 col-sm-6 col-12 services-list">
+				<h3>Servicios</h3>
+				<ul>
+					<li>Diseño de logos</li>
+					<li>UX/UI</li>
+					<li>Diseño de personajes</li>
+					<li>Modelado y texturizado 3D</li>
+					<li>Ilustración</li>
+				</ul>
+			</article>
+			
+			<article class="col-lg-6 col-sm-6 col-12">
+				<h3>Herramientas</h3>
+				<img src="img/tools_1.png" alt="Herramientas-programas" class="img-fluid" width="450px">
+			</article>
+		</div>
+	</div>
+</section>   
+	
+<section id="projects">
+	<div class="container-fluid">
+		<h2>Proyectos</h2>
+		<div class="row categoria justify-content-center">
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/logo-1.jpg" alt="BeeU" class="img-fluid">
+			</article>
+			
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/logo-2.jpg" alt="Bird-e" class="img-fluid">
+			</article>
+			
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/logo-3.jpg" alt="In-Between" class="img-fluid">
+			</article>
+			<p class="titulo-categoria">Logos</p>
+		</div>
+		
+		<div class="row categoria justify-content-center">
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/interface-1.jpg" alt="Apple-1" class="img-fluid">
+			</article>
+			
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/interface-2.jpg" alt="Apple-2" class="img-fluid">
+			</article>
+			
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/interface-3.jpg" alt="Bee-U" class="img-fluid">
+			</article>
+			<p class="titulo-categoria">Diseño de UX/UI</p>
+		</div>
+		
+		<div class="row categoria justify-content-center">
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/ilustration-1.jpg" alt="Dandadan" class="img-fluid">
+			</article>
+			
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/ilustration-2.jpg" alt="Salt" class="img-fluid">
+			</article>
+			
+			<article class="col-lg-4 col-sm-4 col-12 item">
+				<img src="img/ilustration-3.jpg" alt="Amy" class="img-fluid">
+			</article>
+			<p class="titulo-categoria">Ilustración</p>
+		</div>
+	</div>
+</section>
+
+	
+<section id="contact">
+    <div>
+		<h2>Contáctame</h2>
+		<hr class="divider">
+	</div>
+        <div class="form-container">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="3" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+</section>	
+
+<footer>
+	<h3 class="text-center">Sígueme en</h3>
+	<article>
+		<ul class="list-inline">
+			<li class="list-inline-item">
+				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+			</li>
+			<li class="list-inline-item">
+				<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+			</li>
+			<li class="list-inline-item">
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			</li>
+			<li class="list-inline-item">
+				<a href="#"><i class="fa-brands fa-youtube"></i></a>
+			</li>
+		</ul>
+	</article>	
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+</body>
+</html>
